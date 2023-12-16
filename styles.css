@@ -1,0 +1,21 @@
+
+
+
+.hi {
+    animation: hi 2s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hi {
+    0%, 100% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+}
+
+#navBar {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+}
