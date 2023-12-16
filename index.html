@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script rel="stylesheet" src="https://cdn.tailwindcss.com"></script>
+    
+
+    <title>Document</title>
+</head>
+<body class="flex">
+    
+
+    <!-- Toggle Button -->
+    <div id="navToggle" class="cursor-pointer absolute inset-y-1/3 left-4 text-white transition-transform h-screen">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-14 w-14">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+    </div>
+
+    
+    <!-- Navigation Bar -->
+    <nav id="navBar" class="bg-gray-300 text-white w-1/6 h-screen hidden">
+        <!-- Add your navigation links here -->
+        <ul class="pl-8 pt-10 text-6xl leading-normal">
+            <li><a class="hover:text-black" href="#">Home</a></li>
+            <li><a class="hover:text-black" href="#">About</a></li>
+            <li><a class="hover:text-black" href="#">Projects</a></li>
+            <!-- Add more links as needed -->
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="flex-1  flex flex-col w-full items-center">
+        <div class="flex flex-col bg-black w-full h-full py-20  mb-4 flex items-center justify-center">
+        <h2 class="hi bg-gray-300 text-8xl font-bold mb-6">Hi there</h2>    
+        <h1 class="text-left bg-gray-300 text-8xl font-bold mb-4 hover:animate-pulse">My Name is<br><span class="">Phillip Hickinbotham</span></h1>
+        </div>
+        <!-- Section 1 -->
+        <section class="mb-20">
+            <h2 class="text-6xl font-bold my-4">A budding full-stack developer<br>on the hunt for my next challenge</h2>
+            <!-- Add your content for Section 1 here -->
+            <p>Insert icons of languages/ frameworks</p>
+        </section>
+
+        <!-- Section 2 -->
+        <div class="bg-black w-full h-screen flex flex-col items-center">
+        <section class="mt-10">
+            <h2 class="bg-gray-300 text-6xl font-bold mb-4">Projects</h2>
+            <!-- Add your content for Section 2 here -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+        </section>
+        </div>
+
+        <!-- Add more sections as needed -->
+
+    </div>
+    
+</body>
+
+
+
+
+
+
+
+
+
+<!-- <body class="flex flex-col font-mono bg-gray-300">
+    <div class="w-1/6 bg-black h-screen bg-gradient-to-r from-black to-gray-300">
+        <h2 class="text-white text-center text-6xl mt-12 tracking-wide pr-6">P.H</h2>
+        <div class="flex flex-col flex-row">
+            <h1>Hi, my name is<br>Phillip Hickinbotham</h1>
+        </div>
+
+    </div>
+
+
+    
+</body> -->
+</html>
