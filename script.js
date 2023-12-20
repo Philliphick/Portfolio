@@ -55,7 +55,7 @@ function handleScroll() {
             y: 0,
             stagger: 0.05,
             delay: 1,
-            duration: 0.5
+            duration: 1
         });
 
         window.removeEventListener('scroll', handleScroll);
