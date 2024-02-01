@@ -54,7 +54,7 @@ function handleScroll() {
         gsap.to('.char', {
             y: 0,
             stagger: 0.05,
-            delay: 1,
+            delay: 0.8,
             duration: 1
         });
 
